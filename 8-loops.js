@@ -19,25 +19,6 @@ let passagemComprada = false;
 const destino = 'Salvador';
 const podeComprar = idade >=18 || estaAcompanhada == true;
 
-// if (idade >=18 || estaAcompanhada == true) {
-// 	console.log(`\nBoa viagem!\n`);
-//     listaDeDestinos.splice(1,1);
-//     passagemComprada = true;
-// } else {
-// 	console.log(`Descuple, mas você não pode embarcar\n`);
-//     passagemComprada = false;
-// }
-
-// console.log(`Embarque:\n`);
-
-// if (idade >= 18 || estaAcompanhada == true && passagemComprada == true) {
-//     console.log(`Pode embarcar e boa viagem!\n`);
-// } else {
-//     console.log(`Desculpe, mas você não pode embarcar.\n`);
-// }
-
-// console.log(listaDeDestinos);
-
 let contador = 0;
 let destinoExiste = false;
 
@@ -51,7 +32,9 @@ let destinoExiste = false;
 // 	}
 // 	contador += 1;
 // }
+
 // Usando o for
+// for (inicialização do contador, condicional do contador, expressão)
 for (let cont = 0 ; cont < listaDeDestinos.length ; cont++) {
 	if (listaDeDestinos[cont] == destino) {
 		destinoExiste = true;

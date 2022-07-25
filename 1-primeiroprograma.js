@@ -1,5 +1,7 @@
+// Como imprimir
 console.log("Primeiro programa: trabalhando com variáveis");
 
+// Criando uma constante
 const idade=23;
 
 console.log(idade);
